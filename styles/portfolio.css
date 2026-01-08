@@ -57,6 +57,9 @@
     margin-bottom: 30px;
 }
 
+.text-center{
+    text-align: center;
+}
 
 /* main style  */
 
@@ -127,7 +130,7 @@ nav .menu a{
     vertical-align: middle; /*image er nicher gap remove kore*/
 }
 
-#about{
+#about, #skills, #resume{
     padding-top: 130px;
 }
 #about .about-container{
@@ -151,9 +154,7 @@ nav .menu a{
     font-size: 20px;
     font-weight: 700;
 }
-#skills{
-    padding-top: 130px;
-}
+
 #skills .skill-container{
     width: 71%;
     max-width: 1140px;
@@ -181,4 +182,48 @@ nav .menu a{
     font-size: 16px;
     color: #757575;
     line-height: 28px;
+}
+
+.resume-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+.resume-card{
+    max-width: 511px;
+    margin-right: 47px;
+}
+.education .section-title, .experience .section-title{
+    font-size: 30px;
+    color: #474747;
+    font-weight: bold;
+}
+.card-title{
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.card-info{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.card-text{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.d-button{
+    margin-top: 50px;
+    margin-bottom: 113px;
 }
