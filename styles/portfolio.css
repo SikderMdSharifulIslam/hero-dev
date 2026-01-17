@@ -296,6 +296,8 @@ footer{
     }
     header{
         background-image: none;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     #banner .banner-content div{
         display: flex;
@@ -305,5 +307,9 @@ footer{
     }
     #banner .banner-content h2{
         margin-top: 50px;
+    }
+    nav .menu{
+        gap: 20px;
+        margin-top: 20px;
     }
 }
