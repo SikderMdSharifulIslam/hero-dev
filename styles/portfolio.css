@@ -266,3 +266,44 @@ footer{
     border: none;
     color: #757575;
 }
+
+.hide{
+    display: none !important;
+}
+
+@media screen and (max-width: 576px) {
+    #skills .skill-container .skill-box, .resume-container, .footer-container, nav .menu, nav{
+        flex-direction: column;
+    }
+    .footer-container form input[type="text"], input[type="email"], textarea{
+        width: 99%;
+    }
+    #about .about-container .about-info{
+        flex-direction: column;
+    }
+    #about .about-container{
+        padding: 20px;
+    }
+    #banner{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    #banner .banner-content h1{
+        font-size: 3rem;
+    }
+    #banner .banner-image img{
+        width: 100%;
+    }
+    header{
+        background-image: none;
+    }
+    #banner .banner-content div{
+        display: flex;
+    }
+    #banner .banner-content div button{
+        font-size: 10px;
+    }
+    #banner .banner-content h2{
+        margin-top: 50px;
+    }
+}
