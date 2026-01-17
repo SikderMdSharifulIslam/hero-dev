@@ -295,7 +295,7 @@ footer{
         width: 100%;
     }
     header{
-        background-image: none;
+        /* background-image: none; */
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -311,5 +311,12 @@ footer{
     nav .menu{
         gap: 20px;
         margin-top: 20px;
+    }
+    header {
+        background-color: #FFF8F3;
+        padding-top: 50px;
+        background: url(../images/header_bg.png), #FFF8F3;
+        background-repeat: no-repeat;
+        background-position: 14px 549px, bottom right;
     }
 }
